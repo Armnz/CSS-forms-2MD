@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="section section-one">
+        <div class="container section-one__container">
+            <form action="" class="section-one__form">
+                <div class="section-one__username">
+                      <label for="username">Username</label>
+                      <input type="text" id="username" placeholder="Username" required>
+                </div>
+                <div class="section-one__password">
+                <label for="pwd">Password</label>
+                <input type="password" id="pwd" placeholder="Password" required>
+                </div>
+                <div class="section-one__subscribe">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                  <p>Subscribe to News</p>
+                </div>
+                <button type="submit" class="btn btn-signin">Sign in</button>
+            </form>
+            <p class="section-one__forgot-password">Forgot your password?</p>
+            <div class="section-one__line"></div>
+                <p class="section-one__text">or continue with</p>
+                <div class="section-one__buttons">
+                        <button type="button" class="btn btn-google">
+                            <img src="assets/images/google.svg" alt="icon" width="24px" class="section-one__icon">
+                        </button>
+                        <button type="button" class="btn btn-facebook">
+                            <img src="assets/images/facebook.svg" alt="icon" width="24px" class="section-one__icon">
+                        </button>
+                </div>
+        </div>
+    </section>
+
+    <section class="section section-two">
+        <div class="container section-two__container">
+            <h1 class="section-two__title">Contact Us</h1>
+            <form action="" class="section-two__form">
+                <div class="section-two__parent">
+                    <div class="section-two__child">
+                        <label for="username">Name</label>
+                        <input type="text" id="last_name" placeholder="Name" required>
+                    </div>
+                    <div class="section-two__child">
+                        <label for="username">Last Name</label>
+                        <input type="text" id="last_name" placeholder="Last Name" required>
+                    </div>
+                    <div class="section-two__child">
+                    <label for="username">E-mail</label>
+                    <input type="email" id="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="section-two__child">
+                    <label for="username">Phone number</label>
+                    <input type="number" id="phone_number" placeholder="Phone number" required>
+                    </div>
+                </div>
+                <div class="section-two__subscribe">
+                <label class="checkbox">
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  <p style="font-size: 18px">Subscribe to News</p>
+                </div>
+                <label for="subject">Message</label>
+                <textarea id="message" name="message" placeholder="Type Message.."></textarea>
+                <button type="submit" class="btn section-two__submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="section section-three">
+        <div class="container section-three__container">
+            <div class="section-three__left">
+                <p>Contact Information</p>
+                <p>Here’s some additional support text to help set user expectations. </p>
+                <div class="section-three__left--tel">
+                    <img src="assets/images/tel.svg" alt="image" height="20px">
+                    <p>123-456-7890</p>
+                </div>
+                <div class="section-three__left--email">
+                    <img src="assets/images/mail.svg" alt="image" height="20px">
+                    <p>support@minerva.com</p>
+                </div>
+            </div>
+            <div class="section-three__right">
+                <h1 class="section-two__title">Contact Us</h1>
+            <form action="" class="section-two__form">
+                <div class="section-two__parent">
+                    <div class="section-two__child">
+                        <label for="username">Name</label>
+                        <input type="text" id="last_name" placeholder="Name" required>
+                    </div>
+                    <div class="section-two__child">
+                        <label for="username">Last Name</label>
+                        <input type="text" id="last_name" placeholder="Last Name" required>
+                    </div>
+                    <div class="section-two__child">
+                        <label for="username">E-mail</label>
+                        <input type="email" id="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="section-two__child">
+                        <label for="username">Phone number</label>
+                        <input type="number" id="phone_number" placeholder="Phone number" required>
+                    </div>
+                    <div class="section-two__child">
+                        <label for="username">Second Phone number</label>
+                        <input type="number" id="phone_number" placeholder="Phone number" required>
+                    </div>
+                </div>
+                <label for="subject">Message</label>
+                <textarea id="message" name="message" placeholder="Type Message.."></textarea>
+                <button type="submit" class="btn section-two__submit">Submit</button>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="/scripts.js"></script>
+</body>
+</html>
